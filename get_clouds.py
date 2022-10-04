@@ -1,5 +1,4 @@
 #%%
-from build_NPDF import *
 import shutil
 from build_NPDF import *
 from astropy.table import Table
