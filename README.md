@@ -1,5 +1,5 @@
 # MWISPclouds
-Scripts for analysis of the MWISP data (individual clouds) in the paper: 2022ApJS..262...16M. (https://iopscience.iop.org/article/10.3847/1538-4365/ac7797)   
+Scripts for the analysis of the MWISP data (individual clouds) in the paper: 2022ApJS..262...16M. (https://iopscience.iop.org/article/10.3847/1538-4365/ac7797)   
 - The methods for the calculation of the physical maps or parameters are discribed indetail in the above paper.  
 - The N-PDF fittings in 2022ApJS..262...16M are implemented using methods in the pdf_tools.py.  
 - The figures in 2022ApJS..262...16M are mostly generated using the functions in the img_tools.py.  
