@@ -49,3 +49,7 @@ Scripts for the analysis of the MWISP data (individual clouds) in the paper: 202
 - channelmap: make a velocity channel map for a given 3D fits cube.
 - overlay_spec: overlay grids of average spectra on 2D projected images. The grid size of each average spectrum corresponds to the area from which the average spectrum is calculated.
 - plt_nh2: especially for plotting a column density image.
+
+## 4. crop_region.py and get_clouds.py
+- crop_region: Extract individual 12CO clouds from a large data cube that contains masks of each cloud, i.e., the voxels within the same cloud are labeled with the same cloud ID. The extracted 12CO clouds are saved as small fits cubes along with the subregions of the RMS map.
+- get_clouds: Extract individual 13CO clouds from the large 13CO data cube according to the PPV masks in the 12CO data. The large 12CO and 13CO data cubes are different in velocity channel width. The extracted 13CO clouds are saved as small fits cubes along with the subregions of the RMS map. The 13CO data in each small cubes outside of a 12CO cloud mask are eliminated.
